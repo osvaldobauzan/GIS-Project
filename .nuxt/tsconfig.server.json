@@ -1,0 +1,104 @@
+{
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "jsx": "preserve",
+    "allowSyntheticDefaultImports": true,
+    "jsxFactory": "h",
+    "jsxFragmentFactory": "Fragment",
+    "paths": {
+      "#imports": [
+        "./types/nitro-imports"
+      ],
+      "#paths": [
+        "../node_modules/.pnpm/nuxt@3.10.1_eslint@8.56.0_vite@5.1.1/node_modules/nuxt/dist/core/runtime/nitro/paths"
+      ],
+      "~": [
+        "./.."
+      ],
+      "~/*": [
+        "../*"
+      ],
+      "@": [
+        "./.."
+      ],
+      "@/*": [
+        "../*"
+      ],
+      "~~": [
+        "./.."
+      ],
+      "~~/*": [
+        "../*"
+      ],
+      "@@": [
+        "./.."
+      ],
+      "@@/*": [
+        "../*"
+      ],
+      "assets": [
+        "../assets"
+      ],
+      "assets/*": [
+        "../assets/*"
+      ],
+      "public": [
+        "../public"
+      ],
+      "public/*": [
+        "../public/*"
+      ],
+      "#icon-collections": [
+        "./icon-collections"
+      ],
+      "#color-mode-options": [
+        "./color-mode-options"
+      ],
+      "pinia": [
+        "../node_modules/.pnpm/pinia@2.1.7_vue@3.4.18/node_modules/pinia/dist/pinia"
+      ],
+      "#mdc-configs": [
+        "./mdc-configs"
+      ],
+      "#mdc-highlighter": [
+        "./mdc-highlighter"
+      ],
+      "#mdc-imports": [
+        "./mdc-imports"
+      ],
+      "#content/server": [
+        "../node_modules/.pnpm/@nuxt+content@2.12.0_nuxt@3.10.1_vue@3.4.18/node_modules/@nuxt/content/dist/runtime/legacy/server"
+      ]
+    }
+  },
+  "include": [
+    "./types/nitro-nuxt.d.ts",
+    "../node_modules/.pnpm/@nuxt-awesome+theme@2.0.12_nuxt@3.10.1_vite@5.1.1_vue@3.4.18/node_modules/@nuxt-awesome/theme/modules/awesome.ts/runtime/server",
+    "../node_modules/.pnpm/@nuxtjs+eslint-module@4.1.0_eslint@8.56.0_vite@5.1.1_webpack@5.90.1/node_modules/@nuxtjs/eslint-module/runtime/server",
+    "../node_modules/.pnpm/@nuxtjs+tailwindcss@6.11.3/node_modules/@nuxtjs/tailwindcss/runtime/server",
+    "../node_modules/.pnpm/nuxt-headlessui@1.1.5_vue@3.4.18/node_modules/nuxt-headlessui/runtime/server",
+    "../node_modules/.pnpm/nuxt-icon@0.6.8_nuxt@3.10.1_vite@5.1.1_vue@3.4.18/node_modules/nuxt-icon/runtime/server",
+    "../node_modules/.pnpm/@nuxtjs+color-mode@3.3.2/node_modules/@nuxtjs/color-mode/runtime/server",
+    "../node_modules/.pnpm/@pinia+nuxt@0.5.1_vue@3.4.18/node_modules/@pinia/nuxt/runtime/server",
+    "../node_modules/.pnpm/@vueuse+nuxt@10.7.2_nuxt@3.10.1_vue@3.4.18/node_modules/@vueuse/nuxt/runtime/server",
+    "../node_modules/.pnpm/@nuxtjs+mdc@0.5.0/node_modules/@nuxtjs/mdc/runtime/server",
+    "../node_modules/.pnpm/@nuxt+content@2.12.0_nuxt@3.10.1_vue@3.4.18/node_modules/@nuxt/content/runtime/server",
+    "../node_modules/.pnpm/@nuxt+devtools@1.0.8_nuxt@3.10.1_vite@5.1.1/node_modules/@nuxt/devtools/runtime/server",
+    "../node_modules/.pnpm/@nuxt+telemetry@2.5.3/node_modules/@nuxt/telemetry/runtime/server",
+    "./types/nitro.d.ts",
+    "../**/*",
+    "../server/**/*"
+  ],
+  "exclude": [
+    "../node_modules",
+    "../node_modules/.pnpm/nuxt@3.10.1_eslint@8.56.0_vite@5.1.1/node_modules/nuxt/node_modules",
+    "../node_modules/.pnpm/@nuxt-awesome+theme@2.0.12_nuxt@3.10.1_vite@5.1.1_vue@3.4.18/node_modules/@nuxt-awesome/theme/modules",
+    "../dist"
+  ]
+}
